@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Soil">
+      <UniqueIdentifier>{c54cd7c3-920d-4ab0-8192-776485f00ccf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{3fe41f1d-d0b9-44e9-aebe-7433fb4032e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Textures">
+      <UniqueIdentifier>{41f69a13-10e4-4b1a-91a3-6ba5beb9d15d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Textures\Skyboxes">
+      <UniqueIdentifier>{443df062-1954-473f-8192-b84a1267a76e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenGL\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shaderClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VBO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EBO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VAO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Skybox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Water.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenGL\SOIL2\etc1_utils.c">
+      <Filter>Soil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenGL\SOIL2\image_DXT.c">
+      <Filter>Soil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenGL\SOIL2\image_helper.c">
+      <Filter>Soil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenGL\SOIL2\SOIL2.c">
+      <Filter>Soil</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_impl_glfw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_impl_opengl3.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_tables.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneSettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="default.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="default.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="water.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="water.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Skybox.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Skybox.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="model.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="model.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="lantern.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="lantern.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="shaderClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VBO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EBO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VAO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExternalHeaders.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Skybox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Water.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenGL\SOIL2\etc1_utils.h">
+      <Filter>Soil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenGL\SOIL2\image_DXT.h">
+      <Filter>Soil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenGL\SOIL2\image_helper.h">
+      <Filter>Soil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenGL\SOIL2\jo_jpeg.h">
+      <Filter>Soil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenGL\SOIL2\pkm_helper.h">
+      <Filter>Soil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenGL\SOIL2\pvr_helper.h">
+      <Filter>Soil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenGL\SOIL2\SOIL2.h">
+      <Filter>Soil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenGL\SOIL2\stb_image.h">
+      <Filter>Soil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenGL\SOIL2\stb_image_write.h">
+      <Filter>Soil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenGL\SOIL2\stbi_DDS.h">
+      <Filter>Soil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenGL\SOIL2\stbi_DDS_c.h">
+      <Filter>Soil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenGL\SOIL2\stbi_ext.h">
+      <Filter>Soil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenGL\SOIL2\stbi_ext_c.h">
+      <Filter>Soil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenGL\SOIL2\stbi_pkm.h">
+      <Filter>Soil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenGL\SOIL2\stbi_pkm_c.h">
+      <Filter>Soil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenGL\SOIL2\stbi_pvr.h">
+      <Filter>Soil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenGL\SOIL2\stbi_pvr_c.h">
+      <Filter>Soil</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imgui_impl_glfw.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imgui_impl_opengl3.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneSettings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="grass_spec.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="_heightmap.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="waterDUDV.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="grass.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="nightSky_back.png">
+      <Filter>Resource Files\Textures\Skyboxes</Filter>
+    </Image>
+    <Image Include="nightSky_bottom.png">
+      <Filter>Resource Files\Textures\Skyboxes</Filter>
+    </Image>
+    <Image Include="nightSky_front.png">
+      <Filter>Resource Files\Textures\Skyboxes</Filter>
+    </Image>
+    <Image Include="nightSky_left.png">
+      <Filter>Resource Files\Textures\Skyboxes</Filter>
+    </Image>
+    <Image Include="nightSky_right.png">
+      <Filter>Resource Files\Textures\Skyboxes</Filter>
+    </Image>
+    <Image Include="nightSky_top.png">
+      <Filter>Resource Files\Textures\Skyboxes</Filter>
+    </Image>
+    <Image Include="daySky_front.png">
+      <Filter>Resource Files\Textures\Skyboxes</Filter>
+    </Image>
+    <Image Include="daySky_right.png">
+      <Filter>Resource Files\Textures\Skyboxes</Filter>
+    </Image>
+    <Image Include="daySky_left.png">
+      <Filter>Resource Files\Textures\Skyboxes</Filter>
+    </Image>
+    <Image Include="daySky_top.png">
+      <Filter>Resource Files\Textures\Skyboxes</Filter>
+    </Image>
+    <Image Include="daySky_bottom.png">
+      <Filter>Resource Files\Textures\Skyboxes</Filter>
+    </Image>
+    <Image Include="daySky_back.png">
+      <Filter>Resource Files\Textures\Skyboxes</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ImguiExample.txt">
+      <Filter>imgui</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
